@@ -6,6 +6,9 @@ Tips: utilizar la consola para probar la función esPar y observar si devuelve e
 Recordar utilizar el operador módulo. */
 
 function esPar (n){
-return n % 2
-}
-console.log(esPar(8))
+    if (n===0){
+        return true
+    }
+    return n%2
+    }
+    console.log(esPar(6))
